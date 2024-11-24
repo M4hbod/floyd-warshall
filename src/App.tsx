@@ -238,6 +238,11 @@ const App: React.FC = () => {
 								<p>{path.join(" -> ")}</p>
 							</div>
 						)}
+						<a href='https://github.com/M4hbod/floyd-warshall'>
+							<button className='flex justify-center items-center rounded bg-gray-100 dark:bg-gray-900 text-center text-gray-900 dark:text-gray-100 mt-4 py-2 px-4'>
+								Visit GitHub
+							</button>
+						</a>
 					</div>
 
 					<div className='w-full h-[80vh] desktop:min-h-[90vh] desktop:w-2/4 rounded bg-white dark:bg-gray-800'>
