@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/floyd-warshall/static/css/main.c052cd3e.css",
-    "main.js": "/floyd-warshall/static/js/main.39c45f7f.js",
+    "main.css": "/floyd-warshall/static/css/main.7b095021.css",
+    "main.js": "/floyd-warshall/static/js/main.e51f37f8.js",
     "static/js/453.53e3540c.chunk.js": "/floyd-warshall/static/js/453.53e3540c.chunk.js",
     "index.html": "/floyd-warshall/index.html",
-    "main.c052cd3e.css.map": "/floyd-warshall/static/css/main.c052cd3e.css.map",
-    "main.39c45f7f.js.map": "/floyd-warshall/static/js/main.39c45f7f.js.map",
+    "main.7b095021.css.map": "/floyd-warshall/static/css/main.7b095021.css.map",
+    "main.e51f37f8.js.map": "/floyd-warshall/static/js/main.e51f37f8.js.map",
     "453.53e3540c.chunk.js.map": "/floyd-warshall/static/js/453.53e3540c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c052cd3e.css",
-    "static/js/main.39c45f7f.js"
+    "static/css/main.7b095021.css",
+    "static/js/main.e51f37f8.js"
   ]
 }
