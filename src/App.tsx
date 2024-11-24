@@ -136,7 +136,7 @@ const App: React.FC = () => {
 						{darkMode ? "Light Mode" : "Dark Mode"}
 					</button>
 				</header>
-				<main className='desktop:flex-row p-4 gap-y-4 gap-x-4 flex-col flex min-h-[calc(100vh-100px)]'>
+				<main className='desktop:flex-row p-4 gap-y-4 gap-x-4 flex-col flex min-h-[90vh]'>
 					<div className='w-full desktop:w-2/4 bg-white dark:bg-gray-800 p-4 rounded shadow flex justify-center flex-col items-center'>
 						<h2 className='text-lg font-semibold mb-2'>
 							Graph Input
@@ -240,7 +240,7 @@ const App: React.FC = () => {
 						)}
 					</div>
 
-					<div className='w-full h-[calc(100vh-400px)] desktop:min-h-[calc(100vh-100px)] desktop:w-2/4 rounded bg-white dark:bg-gray-800'>
+					<div className='w-full h-[80vh] desktop:min-h-[90vh] desktop:w-2/4 rounded bg-white dark:bg-gray-800'>
 						<CytoscapeComponent
 							key={graph.length} // Forces the graph to re-render when the graph changes
 							cy={(cy) => {
