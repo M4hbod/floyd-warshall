@@ -27,7 +27,7 @@ const App: React.FC = () => {
 	const [path, setPath] = useState<string[]>([])
 
 	useEffect(() => {
-		const nodeCount = generateRandomEvenNumber(6, 6)
+		const nodeCount = generateRandomEvenNumber(10, 20)
 		const edgeCount = Math.floor(nodeCount / 3)
 		const graph: GraphElement[] = []
 		const edges: GraphElement[] = []
