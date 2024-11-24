@@ -123,7 +123,7 @@ const App: React.FC = () => {
 	}
 
 	return (
-		<div className={`${darkMode ? "dark" : ""} debug-screens`}>
+		<div className={`${darkMode ? "dark" : ""}`}>
 			<div className='min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100'>
 				<header className='p-4 shadow-md flex justify-between items-center'>
 					<h1 className='text-2xl font-bold'>
